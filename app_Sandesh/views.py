@@ -5,4 +5,5 @@ def yamaha(request):
     return HttpResponse("Hi this is App by Sandesh")
 
 def tvs(request):
-    return render(request,'app_Sandesh.html')
+    return render(request,'new.html')
+
